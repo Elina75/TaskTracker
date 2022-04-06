@@ -21,7 +21,7 @@ You may see the picture of the swagger here too 'TaskTracker swagger pic.JPEG'.
 
 If you will have problems with AppConfig.class exactly java: package com.sun.org.slf4j.internal does not exist, 
 
-Firstly, try to add maven dependency
+Firstly, try to add maven dependency. Open this text in raw 
 
 '<dependency>
     <groupId>org.slf4j</groupId>
