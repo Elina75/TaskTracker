@@ -20,18 +20,21 @@ For opening swagger you need to write url in browser in my case 'localhost:8080/
 You may see the picture of the swagger here too 'TaskTracker swagger pic.JPEG'.
 
 If you will have problems with AppConfig.class exactly java: package com.sun.org.slf4j.internal does not exist, 
+
 Firstly, try to add maven dependency
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-api</artifactId>
     <version>1.7.28</version>
 </dependency>
+---
 Secondly, if the first will not work
 delete 2 imports 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 
 And replace them with @Log (lombok) annotation
+
 in 44 line change to log.info("Embedded DataSource bean cannot be created!")
 _ _ _ _
 You can use it daily
