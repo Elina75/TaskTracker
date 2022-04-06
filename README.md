@@ -23,11 +23,11 @@ If you will have problems with AppConfig.class exactly java: package com.sun.org
 
 Firstly, try to add maven dependency
 
-<dependency>
+'<dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-api</artifactId>
     <version>1.7.28</version>
-</dependency>
+</dependency>'
 
 Secondly, if the first will not work
 delete 2 imports 
